@@ -1,0 +1,50 @@
+@media screen  and (min-width:1824px) {
+  .container-screen_content-67{
+    width:50vw;
+  }
+}
+
+
+
+
+@media screen and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  h1{
+    font-size:40pt;
+    margin:0 0 32px 0;
+    line-height: 160%;
+  }
+
+  h2{
+    font-size:28pt;
+    margin-bottom:2em;
+  }
+
+  h3{
+    font-size:24pt;
+  }
+
+  h4{
+    font-size:22pt;
+  }
+
+
+  #row-banner .container-inner-67{
+    width:80%;
+  }
+
+  .container-columns-50_50{
+    grid-template-columns: 1fr;
+  }
+
+  .container-inner-67{
+    width:80% !important;
+  }
+
+  #row-discover .container-columns-33_33_33{
+    grid-template-columns: 1fr;
+  }
+
+
+
+
+}
